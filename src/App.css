@@ -1,0 +1,81 @@
+ body {
+background: rgb(26, 26, 26);
+} 
+
+label {
+  background: black;
+}
+
+p {
+  background: rgb(26, 26, 26);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+  margin-top: -170px;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.678);
+  background-size: auto;
+  height: 100px;
+  padding-top: 100px;
+  width: 100%;
+  position: fixed;
+  background-repeat: none;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-top: -75px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#card-1 {
+  background: white;
+}
+
+#cond-table {
+  background: rgb(127, 166, 238);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: ridge;
+  
+}
+
+#header-1 {
+  border-style: ridge;
+  margin-top: 50px;
+}
+
+#map {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: ridge;
+}
+
+#col-1 {
+  margin-left: 30px;
+}
+
+#col-2 {
+  margin-left: 120px;
+}
+
+#h2 {
+  margin-top: 35px;
+}
